@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GLBaseTableView: UITableView {
+open class GLBaseTableView: UITableView {
     override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
         self.separatorStyle = .none
@@ -18,7 +18,7 @@ class GLBaseTableView: UITableView {
         self.backgroundColor = UIColor.white
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

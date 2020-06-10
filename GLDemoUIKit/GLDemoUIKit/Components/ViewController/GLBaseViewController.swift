@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GLBaseViewController: UIViewController {
+open class GLBaseViewController: UIViewController {
     private var _gradientColorLayer: CAGradientLayer?
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -16,18 +16,18 @@ class GLBaseViewController: UIViewController {
         self.modalPresentationStyle = .overFullScreen
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
     }
 
     // MARK: - Lift Cycle
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.extendedLayoutIncludesOpaqueBars = true
         self.edgesForExtendedLayout = UIRectEdge.all
         self.automaticallyAdjustsScrollViewInsets = false
-        self.view.backgroundColor = MColor.init(UIColor.white, dark: UIColor.)
+        self.view.backgroundColor = MColor.init(UIColor.white, dark: UIColor.black).color
 //        self.setupViews()
 //        self.setupLayout()
     }
@@ -56,7 +56,7 @@ class GLBaseViewController: UIViewController {
         self.view.layer.insertSublayer(_gradientColorLayer!, at: 0)
         //        self.view.layer.addSublayer(gradientColorLayer)
     }
-    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+    override open func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         self.setupGradientBGColor()
     }

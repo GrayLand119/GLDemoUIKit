@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MColor: NSObject {
+open class MColor: NSObject {
     var light: UIColor
     var dark: UIColor
     open var color: UIColor { get {return self._color()}}

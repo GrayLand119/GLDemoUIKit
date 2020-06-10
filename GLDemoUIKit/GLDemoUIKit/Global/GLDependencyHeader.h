@@ -9,9 +9,9 @@
 #ifndef GLDependencyHeader_h
 #define GLDependencyHeader_h
 
-#import "UIColor+YYAdd.h"
-#import "UIView+YYAdd.h"
-#import "UIImage+YYAdd.h"
-#import "CALayer+YYAdd.h"
+#import <YYCategories/UIColor+YYAdd.h>
+#import <YYCategories/UIView+YYAdd.h>
+#import <YYCategories/UIImage+YYAdd.h>
+#import <YYCategories/CALayer+YYAdd.h>
 
 #endif /* GLDependencyHeader_h */

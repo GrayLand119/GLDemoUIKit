@@ -8,7 +8,7 @@
 
 import PKHUD
 
-extension GLBaseViewController {
+public extension GLBaseViewController {
     func showMessage(_ message: String) {
         self.showMessage(message, duration: 1.5)
     }

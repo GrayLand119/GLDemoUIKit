@@ -10,18 +10,18 @@ import UIKit
 
 open class GLBaseViewController: UIViewController {
     private var _gradientColorLayer: CAGradientLayer?
-    init() {
+    public init() {
         super.init(nibName: nil, bundle: nil)
         self.modalTransitionStyle = .crossDissolve
         self.modalPresentationStyle = .overFullScreen
     }
     
-    required public init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
 
     // MARK: - Lift Cycle
-    override open func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.extendedLayoutIncludesOpaqueBars = true

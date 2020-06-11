@@ -11,7 +11,7 @@ import UIKit
 open class GLBaseNavigationController: UINavigationController {
     
     // MARK: - Lift Cycle
-    override open func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

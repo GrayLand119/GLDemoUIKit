@@ -25,6 +25,7 @@
 		E29E23172490A3E300253F0A /* GLHUDLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E230E2490A3E300253F0A /* GLHUDLoadingView.swift */; };
 		E29E23182490A3E300253F0A /* GLBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E23102490A3E300253F0A /* GLBaseNavigationController.swift */; };
 		E29E23192490A3E300253F0A /* GLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E23112490A3E300253F0A /* GLBaseViewController.swift */; };
+		E29E234F2491D60C00253F0A /* GLDemoUIKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E29E234E2491D60C00253F0A /* GLDemoUIKit.podspec */; };
 		E3BDBA5A72D131A87D9D62EA /* Pods_GLDemoUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F82801CBBDC5C952CF5307 /* Pods_GLDemoUIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		E29E230E2490A3E300253F0A /* GLHUDLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLHUDLoadingView.swift; sourceTree = "<group>"; };
 		E29E23102490A3E300253F0A /* GLBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLBaseNavigationController.swift; sourceTree = "<group>"; };
 		E29E23112490A3E300253F0A /* GLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLBaseViewController.swift; sourceTree = "<group>"; };
+		E29E234E2491D60C00253F0A /* GLDemoUIKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GLDemoUIKit.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		E29E22C62490800F00253F0A /* GLDemoUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E29E234E2491D60C00253F0A /* GLDemoUIKit.podspec */,
 				E29E22E92490803300253F0A /* GLDemoUIKit */,
 				E29E22C72490800F00253F0A /* AppDelegate.swift */,
 				E29E22CB2490800F00253F0A /* ViewController.swift */,
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29E22D42490801200253F0A /* LaunchScreen.storyboard in Resources */,
+				E29E234F2491D60C00253F0A /* GLDemoUIKit.podspec in Resources */,
 				E29E22D12490801200253F0A /* Assets.xcassets in Resources */,
 				E29E22CF2490800F00253F0A /* Main.storyboard in Resources */,
 			);

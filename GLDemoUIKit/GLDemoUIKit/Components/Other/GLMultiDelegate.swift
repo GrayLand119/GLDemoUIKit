@@ -32,7 +32,7 @@ open class GLMultiDelegate<T>: NSObject {
         delegates.remove(delegate as AnyObject)
         semaphore.signal()
     }
-    func removeAll() {
+    public func removeAll() {
         semaphore.wait()
         delegates.removeAllObjects()
         semaphore.signal()

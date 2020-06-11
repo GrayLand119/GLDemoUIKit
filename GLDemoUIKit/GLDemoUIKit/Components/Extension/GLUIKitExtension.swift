@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Array where Element == Int {
+public extension Array where Element == Int {
     var hexDisp:String {
         get {
             var s = "Hex:["

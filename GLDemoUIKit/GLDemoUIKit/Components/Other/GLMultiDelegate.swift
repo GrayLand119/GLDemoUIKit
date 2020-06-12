@@ -54,3 +54,4 @@ open class GLMultiDelegate<T>: NSObject {
         }
     }
 }
+

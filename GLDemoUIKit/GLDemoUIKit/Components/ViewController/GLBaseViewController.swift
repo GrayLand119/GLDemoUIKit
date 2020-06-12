@@ -32,18 +32,18 @@ open class GLBaseViewController: UIViewController {
 //        self.setupLayout()
     }
     // MARK: - Setup
-    func setupViews() {
+    open func setupViews() {
         
     }
     
-    func setupLayout() {
+    open func setupLayout() {
         
     }
     
     // MARK: - Override
     
     // MARK: - Public
-    func setupGradientBGColor() {
+    open func setupGradientBGColor() {
         if _gradientColorLayer != nil {
             _gradientColorLayer?.removeFromSuperlayer()
         }
@@ -56,7 +56,7 @@ open class GLBaseViewController: UIViewController {
         self.view.layer.insertSublayer(_gradientColorLayer!, at: 0)
         //        self.view.layer.addSublayer(gradientColorLayer)
     }
-    override open func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+    open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         self.setupGradientBGColor()
     }
@@ -72,7 +72,7 @@ open class GLBaseViewController: UIViewController {
     // MARK: - Getter
 }
 
-extension GLBaseViewController {
+public extension GLBaseViewController {
     func showSystemAlert(_ inController: UIViewController, _ title: String?, _ message: String?,_ cancelTitle: String?, cancelHandler: GLVoidCompletion?, okTitle: String?, okHandler : GLVoidCompletion?) {
         let alertVC = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         alertVC.addAction(UIAlertAction.init(title: cancelTitle ?? "取消", style: UIAlertAction.Style.cancel, handler: { (_) in

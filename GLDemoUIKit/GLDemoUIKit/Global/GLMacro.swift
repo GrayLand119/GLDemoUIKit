@@ -110,4 +110,4 @@ public func GL_INJECTION() {
     #endif
 }
 
-typealias GLVoidCompletion = () -> () //或者 () -> Void
+public typealias GLVoidCompletion = () -> () //或者 () -> Void

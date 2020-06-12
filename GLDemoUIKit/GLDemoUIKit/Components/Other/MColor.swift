@@ -14,7 +14,7 @@ open class MColor: NSObject {
     open var color: UIColor { get {return self._color()}}
     open var cgColor: CGColor { get {return self.color.cgColor}}
     
-    init(_ light: UIColor, dark: UIColor) {
+    public init(_ light: UIColor, dark: UIColor) {
         self.light = light
         self.dark = dark
     }
@@ -33,4 +33,5 @@ open class MColor: NSObject {
             return self.light
         }
     }
+    
 }

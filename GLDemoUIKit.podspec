@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "GLDemoUIKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A Lite UIKit For Demos."
   spec.description  = <<-DESC
   A Lite UIKit For write demos quickly.

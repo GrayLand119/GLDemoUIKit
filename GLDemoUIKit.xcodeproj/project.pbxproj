@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9AE7767413A69CA530AB1923 /* Pods_GLDemoUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C9335766280E481D792EE8 /* Pods_GLDemoUIKitTests.framework */; };
+		E281A884249371C800B851B2 /* GLNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A883249371C800B851B2 /* GLNavigationBar.swift */; };
+		E281A88724937D0900B851B2 /* GLNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A88624937D0900B851B2 /* GLNavigationDelegate.swift */; };
+		E281A89E24939B4100B851B2 /* GLNSAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A89D24939B4100B851B2 /* GLNSAnimator.swift */; };
+		E281A8A02493B10900B851B2 /* GLPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A89F2493B10900B851B2 /* GLPanGestureRecognizer.swift */; };
+		E281A8A22493B4DB00B851B2 /* GLPopGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A8A12493B4DB00B851B2 /* GLPopGestureRecognizerDelegate.swift */; };
+		E281A8A42493B89C00B851B2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A8A32493B89C00B851B2 /* HomeViewController.swift */; };
+		E281A8A62493B8B100B851B2 /* DemoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A8A52493B8B100B851B2 /* DemoNavigationController.swift */; };
 		E29E22C82490800F00253F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E22C72490800F00253F0A /* AppDelegate.swift */; };
-		E29E22CC2490800F00253F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E22CB2490800F00253F0A /* ViewController.swift */; };
-		E29E22CF2490800F00253F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29E22CD2490800F00253F0A /* Main.storyboard */; };
 		E29E22D12490801200253F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29E22D02490801200253F0A /* Assets.xcassets */; };
 		E29E22D42490801200253F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29E22D22490801200253F0A /* LaunchScreen.storyboard */; };
 		E29E22DF2490801200253F0A /* GLDemoUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E22DE2490801200253F0A /* GLDemoUIKitTests.swift */; };
@@ -46,10 +51,15 @@
 		49F82801CBBDC5C952CF5307 /* Pods_GLDemoUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLDemoUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6CB2EC62E6C8A4B2E059F0 /* Pods-GLDemoUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLDemoUIKit.debug.xcconfig"; path = "Target Support Files/Pods-GLDemoUIKit/Pods-GLDemoUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		9114CDAEBFBA48921CD6C706 /* Pods-GLDemoUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLDemoUIKit.release.xcconfig"; path = "Target Support Files/Pods-GLDemoUIKit/Pods-GLDemoUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		E281A883249371C800B851B2 /* GLNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLNavigationBar.swift; sourceTree = "<group>"; };
+		E281A88624937D0900B851B2 /* GLNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLNavigationDelegate.swift; sourceTree = "<group>"; };
+		E281A89D24939B4100B851B2 /* GLNSAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLNSAnimator.swift; sourceTree = "<group>"; };
+		E281A89F2493B10900B851B2 /* GLPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		E281A8A12493B4DB00B851B2 /* GLPopGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLPopGestureRecognizerDelegate.swift; sourceTree = "<group>"; };
+		E281A8A32493B89C00B851B2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E281A8A52493B8B100B851B2 /* DemoNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNavigationController.swift; sourceTree = "<group>"; };
 		E29E22C42490800F00253F0A /* GLDemoUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLDemoUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E22C72490800F00253F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E29E22CB2490800F00253F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E29E22CE2490800F00253F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E29E22D02490801200253F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E29E22D32490801200253F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E29E22D52490801200253F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,7 +79,7 @@
 		E29E230E2490A3E300253F0A /* GLHUDLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLHUDLoadingView.swift; sourceTree = "<group>"; };
 		E29E23102490A3E300253F0A /* GLBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLBaseNavigationController.swift; sourceTree = "<group>"; };
 		E29E23112490A3E300253F0A /* GLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLBaseViewController.swift; sourceTree = "<group>"; };
-		E29E234E2491D60C00253F0A /* GLDemoUIKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GLDemoUIKit.podspec; sourceTree = SOURCE_ROOT; };
+		E29E234E2491D60C00253F0A /* GLDemoUIKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLDemoUIKit.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E281A88524937C7E00B851B2 /* GLNavigationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E281A88624937D0900B851B2 /* GLNavigationDelegate.swift */,
+				E281A89D24939B4100B851B2 /* GLNSAnimator.swift */,
+				E281A89F2493B10900B851B2 /* GLPanGestureRecognizer.swift */,
+				E281A8A12493B4DB00B851B2 /* GLPopGestureRecognizerDelegate.swift */,
+			);
+			path = GLNavigationDelegate;
+			sourceTree = "<group>";
+		};
 		E29E22BB2490800F00253F0A = {
 			isa = PBXGroup;
 			children = (
@@ -138,11 +159,11 @@
 				E29E234E2491D60C00253F0A /* GLDemoUIKit.podspec */,
 				E29E22E92490803300253F0A /* GLDemoUIKit */,
 				E29E22C72490800F00253F0A /* AppDelegate.swift */,
-				E29E22CB2490800F00253F0A /* ViewController.swift */,
-				E29E22CD2490800F00253F0A /* Main.storyboard */,
 				E29E22D02490801200253F0A /* Assets.xcassets */,
 				E29E22D22490801200253F0A /* LaunchScreen.storyboard */,
 				E29E22D52490801200253F0A /* Info.plist */,
+				E281A8A32493B89C00B851B2 /* HomeViewController.swift */,
+				E281A8A52493B8B100B851B2 /* DemoNavigationController.swift */,
 			);
 			path = GLDemoUIKit;
 			sourceTree = "<group>";
@@ -180,6 +201,7 @@
 		E29E23052490A3E300253F0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E281A88524937C7E00B851B2 /* GLNavigationDelegate */,
 				E29E23062490A3E300253F0A /* Extension */,
 				E29E23092490A3E300253F0A /* Other */,
 				E29E230C2490A3E300253F0A /* View */,
@@ -211,6 +233,7 @@
 			children = (
 				E29E230D2490A3E300253F0A /* GLBaseTableView.swift */,
 				E29E230E2490A3E300253F0A /* GLHUDLoadingView.swift */,
+				E281A883249371C800B851B2 /* GLNavigationBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,7 +335,6 @@
 				E29E22D42490801200253F0A /* LaunchScreen.storyboard in Resources */,
 				E29E234F2491D60C00253F0A /* GLDemoUIKit.podspec in Resources */,
 				E29E22D12490801200253F0A /* Assets.xcassets in Resources */,
-				E29E22CF2490800F00253F0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,17 +416,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E281A884249371C800B851B2 /* GLNavigationBar.swift in Sources */,
 				E29E23152490A3E300253F0A /* GLMultiDelegate.swift in Sources */,
+				E281A8A42493B89C00B851B2 /* HomeViewController.swift in Sources */,
 				E29E23122490A3E300253F0A /* PKHUDExtension.swift in Sources */,
+				E281A88724937D0900B851B2 /* GLNavigationDelegate.swift in Sources */,
 				E29E22EC2490808300253F0A /* GLStyleDefine.swift in Sources */,
-				E29E22CC2490800F00253F0A /* ViewController.swift in Sources */,
 				E29E23142490A3E300253F0A /* MColor.swift in Sources */,
 				E29E23132490A3E300253F0A /* GLUIKitExtension.swift in Sources */,
 				E29E22F0249080D000253F0A /* GLMacro.swift in Sources */,
 				E29E23162490A3E300253F0A /* GLBaseTableView.swift in Sources */,
+				E281A8A02493B10900B851B2 /* GLPanGestureRecognizer.swift in Sources */,
 				E29E23172490A3E300253F0A /* GLHUDLoadingView.swift in Sources */,
 				E29E22C82490800F00253F0A /* AppDelegate.swift in Sources */,
+				E281A8A62493B8B100B851B2 /* DemoNavigationController.swift in Sources */,
 				E29E23182490A3E300253F0A /* GLBaseNavigationController.swift in Sources */,
+				E281A89E24939B4100B851B2 /* GLNSAnimator.swift in Sources */,
+				E281A8A22493B4DB00B851B2 /* GLPopGestureRecognizerDelegate.swift in Sources */,
 				E29E22EE2490809400253F0A /* GLKeyDefine.swift in Sources */,
 				E29E23192490A3E300253F0A /* GLBaseViewController.swift in Sources */,
 			);
@@ -429,14 +457,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E29E22CD2490800F00253F0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E29E22CE2490800F00253F0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E29E22D22490801200253F0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

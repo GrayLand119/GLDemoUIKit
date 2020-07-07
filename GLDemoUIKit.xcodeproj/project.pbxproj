@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9AE7767413A69CA530AB1923 /* Pods_GLDemoUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C9335766280E481D792EE8 /* Pods_GLDemoUIKitTests.framework */; };
+		E256C3D6249A2E640070293A /* GLLeftTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3C6249A2E620070293A /* GLLeftTransitionAnimator.m */; };
+		E256C3D7249A2E640070293A /* GLTopTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3C7249A2E620070293A /* GLTopTransitionAnimator.m */; };
+		E256C3D8249A2E640070293A /* GLRightTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3C8249A2E620070293A /* GLRightTransitionAnimator.m */; };
+		E256C3D9249A2E640070293A /* GLTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3C9249A2E630070293A /* GLTransitionDelegate.m */; };
+		E256C3DA249A2E640070293A /* GLCrossDissolveTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3CA249A2E630070293A /* GLCrossDissolveTransitionAnimator.m */; };
+		E256C3DB249A2E640070293A /* GLPopupTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3CF249A2E630070293A /* GLPopupTransitionAnimator.m */; };
+		E256C3DC249A2E640070293A /* GLDefaultTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3D1249A2E640070293A /* GLDefaultTransitionAnimator.m */; };
+		E256C3DD249A2E640070293A /* GLBaseTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C3D5249A2E640070293A /* GLBaseTransitionAnimator.m */; };
+		E256C40A249A36940070293A /* TransitionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E256C409249A36940070293A /* TransitionDemoViewController.swift */; };
+		E256C40D249A37520070293A /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E256C40C249A37520070293A /* DarkModeViewController.swift */; };
+		E256C413249A3F5F0070293A /* UIViewController+GLPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = E256C411249A3F5F0070293A /* UIViewController+GLPresent.m */; };
 		E281A884249371C800B851B2 /* GLNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A883249371C800B851B2 /* GLNavigationBar.swift */; };
 		E281A88724937D0900B851B2 /* GLNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A88624937D0900B851B2 /* GLNavigationDelegate.swift */; };
 		E281A89E24939B4100B851B2 /* GLNSAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281A89D24939B4100B851B2 /* GLNSAnimator.swift */; };
@@ -51,6 +62,26 @@
 		49F82801CBBDC5C952CF5307 /* Pods_GLDemoUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLDemoUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6CB2EC62E6C8A4B2E059F0 /* Pods-GLDemoUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLDemoUIKit.debug.xcconfig"; path = "Target Support Files/Pods-GLDemoUIKit/Pods-GLDemoUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		9114CDAEBFBA48921CD6C706 /* Pods-GLDemoUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLDemoUIKit.release.xcconfig"; path = "Target Support Files/Pods-GLDemoUIKit/Pods-GLDemoUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		E256C3C6249A2E620070293A /* GLLeftTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLeftTransitionAnimator.m; sourceTree = "<group>"; };
+		E256C3C7249A2E620070293A /* GLTopTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTopTransitionAnimator.m; sourceTree = "<group>"; };
+		E256C3C8249A2E620070293A /* GLRightTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLRightTransitionAnimator.m; sourceTree = "<group>"; };
+		E256C3C9249A2E630070293A /* GLTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTransitionDelegate.m; sourceTree = "<group>"; };
+		E256C3CA249A2E630070293A /* GLCrossDissolveTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCrossDissolveTransitionAnimator.m; sourceTree = "<group>"; };
+		E256C3CB249A2E630070293A /* GLTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTransitionDelegate.h; sourceTree = "<group>"; };
+		E256C3CC249A2E630070293A /* GLPopupTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPopupTransitionAnimator.h; sourceTree = "<group>"; };
+		E256C3CD249A2E630070293A /* GLDefaultTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLDefaultTransitionAnimator.h; sourceTree = "<group>"; };
+		E256C3CE249A2E630070293A /* GLBaseTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBaseTransitionAnimator.h; sourceTree = "<group>"; };
+		E256C3CF249A2E630070293A /* GLPopupTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPopupTransitionAnimator.m; sourceTree = "<group>"; };
+		E256C3D0249A2E630070293A /* GLTopTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTopTransitionAnimator.h; sourceTree = "<group>"; };
+		E256C3D1249A2E640070293A /* GLDefaultTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLDefaultTransitionAnimator.m; sourceTree = "<group>"; };
+		E256C3D2249A2E640070293A /* GLLeftTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLeftTransitionAnimator.h; sourceTree = "<group>"; };
+		E256C3D3249A2E640070293A /* GLCrossDissolveTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCrossDissolveTransitionAnimator.h; sourceTree = "<group>"; };
+		E256C3D4249A2E640070293A /* GLRightTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLRightTransitionAnimator.h; sourceTree = "<group>"; };
+		E256C3D5249A2E640070293A /* GLBaseTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLBaseTransitionAnimator.m; sourceTree = "<group>"; };
+		E256C409249A36940070293A /* TransitionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemoViewController.swift; sourceTree = "<group>"; };
+		E256C40C249A37520070293A /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
+		E256C411249A3F5F0070293A /* UIViewController+GLPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GLPresent.m"; sourceTree = "<group>"; };
+		E256C412249A3F5F0070293A /* UIViewController+GLPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GLPresent.h"; sourceTree = "<group>"; };
 		E281A883249371C800B851B2 /* GLNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLNavigationBar.swift; sourceTree = "<group>"; };
 		E281A88624937D0900B851B2 /* GLNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLNavigationDelegate.swift; sourceTree = "<group>"; };
 		E281A89D24939B4100B851B2 /* GLNSAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLNSAnimator.swift; sourceTree = "<group>"; };
@@ -122,6 +153,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E256C3B124990BDF0070293A /* TransitionAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				E256C412249A3F5F0070293A /* UIViewController+GLPresent.h */,
+				E256C411249A3F5F0070293A /* UIViewController+GLPresent.m */,
+				E256C3CE249A2E630070293A /* GLBaseTransitionAnimator.h */,
+				E256C3D5249A2E640070293A /* GLBaseTransitionAnimator.m */,
+				E256C3D3249A2E640070293A /* GLCrossDissolveTransitionAnimator.h */,
+				E256C3CA249A2E630070293A /* GLCrossDissolveTransitionAnimator.m */,
+				E256C3CD249A2E630070293A /* GLDefaultTransitionAnimator.h */,
+				E256C3D1249A2E640070293A /* GLDefaultTransitionAnimator.m */,
+				E256C3D2249A2E640070293A /* GLLeftTransitionAnimator.h */,
+				E256C3C6249A2E620070293A /* GLLeftTransitionAnimator.m */,
+				E256C3CC249A2E630070293A /* GLPopupTransitionAnimator.h */,
+				E256C3CF249A2E630070293A /* GLPopupTransitionAnimator.m */,
+				E256C3D4249A2E640070293A /* GLRightTransitionAnimator.h */,
+				E256C3C8249A2E620070293A /* GLRightTransitionAnimator.m */,
+				E256C3D0249A2E630070293A /* GLTopTransitionAnimator.h */,
+				E256C3C7249A2E620070293A /* GLTopTransitionAnimator.m */,
+				E256C3CB249A2E630070293A /* GLTransitionDelegate.h */,
+				E256C3C9249A2E630070293A /* GLTransitionDelegate.m */,
+			);
+			path = TransitionAnimate;
+			sourceTree = "<group>";
+		};
+		E256C3F9249A2F6B0070293A /* TransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TransitionDemo;
+			sourceTree = "<group>";
+		};
+		E256C40B249A373E0070293A /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				E256C409249A36940070293A /* TransitionDemoViewController.swift */,
+				E256C40C249A37520070293A /* DarkModeViewController.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
 		E281A88524937C7E00B851B2 /* GLNavigationDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +228,8 @@
 		E29E22C62490800F00253F0A /* GLDemoUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E256C40B249A373E0070293A /* Demos */,
+				E256C3F9249A2F6B0070293A /* TransitionDemo */,
 				E29E234E2491D60C00253F0A /* GLDemoUIKit.podspec */,
 				E29E22E92490803300253F0A /* GLDemoUIKit */,
 				E29E22C72490800F00253F0A /* AppDelegate.swift */,
@@ -201,6 +275,7 @@
 		E29E23052490A3E300253F0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E256C3B124990BDF0070293A /* TransitionAnimate */,
 				E281A88524937C7E00B851B2 /* GLNavigationDelegate */,
 				E29E23062490A3E300253F0A /* Extension */,
 				E29E23092490A3E300253F0A /* Other */,
@@ -418,20 +493,31 @@
 			files = (
 				E281A884249371C800B851B2 /* GLNavigationBar.swift in Sources */,
 				E29E23152490A3E300253F0A /* GLMultiDelegate.swift in Sources */,
+				E256C3DA249A2E640070293A /* GLCrossDissolveTransitionAnimator.m in Sources */,
+				E256C3D7249A2E640070293A /* GLTopTransitionAnimator.m in Sources */,
+				E256C3D9249A2E640070293A /* GLTransitionDelegate.m in Sources */,
+				E256C3DD249A2E640070293A /* GLBaseTransitionAnimator.m in Sources */,
 				E281A8A42493B89C00B851B2 /* HomeViewController.swift in Sources */,
 				E29E23122490A3E300253F0A /* PKHUDExtension.swift in Sources */,
+				E256C40A249A36940070293A /* TransitionDemoViewController.swift in Sources */,
 				E281A88724937D0900B851B2 /* GLNavigationDelegate.swift in Sources */,
 				E29E22EC2490808300253F0A /* GLStyleDefine.swift in Sources */,
 				E29E23142490A3E300253F0A /* MColor.swift in Sources */,
+				E256C3DC249A2E640070293A /* GLDefaultTransitionAnimator.m in Sources */,
 				E29E23132490A3E300253F0A /* GLUIKitExtension.swift in Sources */,
 				E29E22F0249080D000253F0A /* GLMacro.swift in Sources */,
 				E29E23162490A3E300253F0A /* GLBaseTableView.swift in Sources */,
+				E256C3D8249A2E640070293A /* GLRightTransitionAnimator.m in Sources */,
 				E281A8A02493B10900B851B2 /* GLPanGestureRecognizer.swift in Sources */,
+				E256C3DB249A2E640070293A /* GLPopupTransitionAnimator.m in Sources */,
 				E29E23172490A3E300253F0A /* GLHUDLoadingView.swift in Sources */,
 				E29E22C82490800F00253F0A /* AppDelegate.swift in Sources */,
+				E256C413249A3F5F0070293A /* UIViewController+GLPresent.m in Sources */,
+				E256C3D6249A2E640070293A /* GLLeftTransitionAnimator.m in Sources */,
 				E281A8A62493B8B100B851B2 /* DemoNavigationController.swift in Sources */,
 				E29E23182490A3E300253F0A /* GLBaseNavigationController.swift in Sources */,
 				E281A89E24939B4100B851B2 /* GLNSAnimator.swift in Sources */,
+				E256C40D249A37520070293A /* DarkModeViewController.swift in Sources */,
 				E281A8A22493B4DB00B851B2 /* GLPopGestureRecognizerDelegate.swift in Sources */,
 				E29E22EE2490809400253F0A /* GLKeyDefine.swift in Sources */,
 				E29E23192490A3E300253F0A /* GLBaseViewController.swift in Sources */,
@@ -596,7 +682,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.4;
+				MARKETING_VERSION = 0.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.grayland.GLDemoUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GLDemoUIKit/GLDemoUIKit/Global/GLDemoUIKit-Bridging-Header.h";
@@ -620,7 +706,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.4;
+				MARKETING_VERSION = 0.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.grayland.GLDemoUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GLDemoUIKit/GLDemoUIKit/Global/GLDemoUIKit-Bridging-Header.h";

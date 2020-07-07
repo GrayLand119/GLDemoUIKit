@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "GLDemoUIKit"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.6"
   spec.summary      = "A Lite UIKit For Demos."
   spec.description  = <<-DESC
   A Lite UIKit For write demos quickly.
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/GrayLand119/GLDemoUIKit.git", :tag => spec.version }
   spec.source_files = "GLDemoUIKit/GLDemoUIKit/**/*.{h,m,swift}"
   spec.requires_arc = true
-
+  
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.frameworks = 'UIKit','Foundation'
   spec.dependency "PKHUD", "~> 5.3.0"

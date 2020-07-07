@@ -1,4 +1,5 @@
 PODS:
+  - GLRunTrace (1.3.1)
   - PKHUD (5.3.0)
   - SnapKit (5.0.1)
   - YYCategories (1.0.4):
@@ -6,21 +7,25 @@ PODS:
   - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
+  - GLRunTrace
   - PKHUD
   - SnapKit
   - YYCategories
 
 SPEC REPOS:
+  https://github.com/GrayLand119/GLSpecs.git:
+    - GLRunTrace
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - PKHUD
     - SnapKit
     - YYCategories
 
 SPEC CHECKSUMS:
+  GLRunTrace: 4781564a3c1d5a242d2e3b2e91bf2e7b01b47eee
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 6323e92fa95ebf745da2240c0ff86d5702747605
+PODFILE CHECKSUM: 18ba08b18e46b37175312824c18dd84ece019f85
 
 COCOAPODS: 1.9.1

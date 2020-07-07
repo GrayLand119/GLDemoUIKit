@@ -9,13 +9,22 @@
 import UIKit
 @_exported import SnapKit
 
+enum DemoType: String {
+    case AdaptDarkMode
+    case PresentTransition
+}
+
 class HomeViewController: GLBaseViewController, UITableViewDelegate, UITableViewDataSource {
     
+    var cellInfos: [DemoType] = []
     // MARK: - Lift Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.title = self.className()
+        
+        cellInfos = [DemoType.AdaptDarkMode,
+                     DemoType.PresentTransition]
         
         setupViews()
         setupLayout()
@@ -52,7 +61,7 @@ class HomeViewController: GLBaseViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return cellInfos.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -63,14 +72,30 @@ class HomeViewController: GLBaseViewController, UITableViewDelegate, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell")
         cell?.backgroundColor = DEFAULT_BG_COLOR.color
         cell?.textLabel?.textColor = DEFAULT_TEXT_COLOR.color
-        cell?.textLabel?.text = "Demo"
+        cell?.textLabel?.text = cellInfos[indexPath.row].rawValue
         return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
-        let vc = HomeViewController()
-        navigationController?.pushViewController(vc, animated: true)
+        switch cellInfos[indexPath.row] {
+        case .AdaptDarkMode:
+            let vc = DarkModeViewController()
+            let nvc = GLBaseNavigationController.init(vc)
+            nvc.modalTransitionStyle = .coverVertical
+//            nvc.modalPresentationStyle = .overFullScreen
+            present(nvc, animated: true, completion: nil)
+        case .PresentTransition:
+            let vc = TransitionDemoViewController()
+            let nvc = GLBaseNavigationController.init(vc)
+            nvc.modalPresentationStyle = .overFullScreen
+            present(nvc, animated: true, completion: nil)
+            
+        default:
+            break
+        }
+        
+//        navigationController?.pushViewController(vc, animated: true)
     }
     
     // MARK: - Setter

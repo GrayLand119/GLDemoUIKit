@@ -1,0 +1,6 @@
+framework module GLRunTrace {
+  umbrella header "GLRunTrace-umbrella.h"
+
+  export *
+  module * { export * }
+}

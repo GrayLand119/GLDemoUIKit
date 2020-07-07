@@ -83,6 +83,7 @@ open class GLBaseViewController: UIViewController {
     open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         self.setupGradientBGColor()
+        self.view.backgroundColor = DEFAULT_BG_COLOR.color
     }
     
     // MARK: - Private
@@ -104,7 +105,7 @@ open class GLBaseViewController: UIViewController {
     // MARK: - Getter
 }
 
-public extension GLBaseViewController {
+public extension UIViewController {
     func showSystemAlert(_ inController: UIViewController, _ title: String?, _ message: String?,_ cancelTitle: String?, cancelHandler: GLVoidCompletion?, okTitle: String?, okHandler : GLVoidCompletion?) {
         let alertVC = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         alertVC.addAction(UIAlertAction.init(title: cancelTitle ?? "取消", style: UIAlertAction.Style.cancel, handler: { (_) in
@@ -121,4 +122,11 @@ public extension GLBaseViewController {
         inController.present(alertVC, animated: true, completion: nil)
     }
 }
+
+//let kGLTransitionDelegate = "kGLTransitionDelegate"
+//public extension UIViewController {
+//    public func glTransitionDelegate() -> GLTransitionDelegate {
+//        return objc_getAssociatedObject(self, "kGLTransitionDelegate") as kGLTransitionDelegate
+//    }
+//}
 

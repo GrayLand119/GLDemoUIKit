@@ -1,5 +1,6 @@
 # source 'https://github.com/CocoaPods/Specs.git'
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://github.com/GrayLand119/GLSpecs.git'
 # source 'https://github.com/SnapKit/SnapKit.git'
 # source 'https://github.com/ibireme/YYCategories.git'
 # source 'https://github.com/pkluz/PKHUD.git'
@@ -11,6 +12,7 @@ target 'GLDemoUIKit' do
   use_frameworks!
 
   # Pods for GLDemoUIKit
+  pod 'GLRunTrace'
   pod 'SnapKit'
   pod 'YYCategories'
   pod 'PKHUD'

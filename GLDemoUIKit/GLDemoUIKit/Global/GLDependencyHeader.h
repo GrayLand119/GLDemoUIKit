@@ -14,4 +14,14 @@
 #import <YYCategories/UIImage+YYAdd.h>
 #import <YYCategories/CALayer+YYAdd.h>
 
+#import "GLTransitionDelegate.h"
+#import "GLBaseTransitionAnimator.h"
+#import "GLCrossDissolveTransitionAnimator.h"
+#import "GLDefaultTransitionAnimator.h"
+#import "GLLeftTransitionAnimator.h"
+#import "GLPopupTransitionAnimator.h"
+#import "GLRightTransitionAnimator.h"
+#import "GLTopTransitionAnimator.h"
+#import "UIViewController+GLPresent.h"
+
 #endif /* GLDependencyHeader_h */

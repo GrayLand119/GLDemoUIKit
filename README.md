@@ -8,7 +8,20 @@
 
 Add the following line of code in `Podfile`:
 
-> pod 'GLDemoUIKit', :git=>'https://github.com/GrayLand119/GLDemoUIKit.git'
+```
+source 'https://github.com/GrayLand119/GLSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+...
+
+pod 'GLDemoUIKit'
+```
+
+Or:
+
+```
+pod 'GLDemoUIKit', :git=>'https://github.com/GrayLand119/GLDemoUIKit.git'
+```
 
 Then, cd to the project path, execute following line in terminal:
 
